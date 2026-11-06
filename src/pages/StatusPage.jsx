@@ -5,7 +5,6 @@ import Layout from '../components/Layout.jsx';
 import Legend from '../components/Legend.jsx';
 import ServiceRow from '../components/ServiceRow.jsx';
 import StatusBanner from '../components/StatusBanner.jsx';
-import { useDemoLink } from '../hooks/useDemo.js';
 import { useStatusData } from '../hooks/useStatusData.js';
 import { COPY } from '../lib/copy.js';
 import { relativeFromNow } from '../lib/format.js';
@@ -21,7 +20,6 @@ export default function StatusPage() {
         reload,
         status,
     } = useStatusData();
-    const uptimeLink = useDemoLink('/uptime');
 
     return (
         <Layout>
@@ -40,7 +38,7 @@ export default function StatusPage() {
                                 : 'Uptime dos últimos 90 dias.'}
                         </p>
                         <Link
-                            to={uptimeLink}
+                            to="/uptime"
                             className="text-sm font-medium text-primary underline-offset-2 hover:underline"
                         >
                             {COPY.viewUptime}
