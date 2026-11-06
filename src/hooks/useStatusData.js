@@ -1,13 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { fetchHistory, fetchIncidents, fetchStatus } from '../lib/api.js';
-import { buildDemoData } from '../lib/demo.js';
 import { mergeServices, overallFromServices } from '../lib/status.js';
-import { useDemo } from './useDemo.js';
 
 const POLL_MS = 60_000;
 
 export function useStatusData() {
-    const demo = useDemo();
     const [status, setStatus] = useState(null);
     const [history, setHistory] = useState(null);
     const [incidents, setIncidents] = useState([]);
@@ -16,17 +13,6 @@ export function useStatusData() {
     const [lastFetched, setLastFetched] = useState(null);
 
     const load = useCallback(async (initial = false) => {
-        if (demo) {
-            const sample = buildDemoData();
-            setStatus(sample.status);
-            setHistory(sample.history);
-            setIncidents(sample.incidents);
-            setError(null);
-            setLastFetched(new Date());
-            setLoading(false);
-            return;
-        }
-
         if (initial) setLoading(true);
 
         try {
@@ -45,7 +31,7 @@ export function useStatusData() {
         } finally {
             setLoading(false);
         }
-    }, [demo]);
+    }, []);
 
     useEffect(() => {
         load(true);
@@ -61,7 +47,6 @@ export function useStatusData() {
     const overall = overallFromServices(services, status?.status);
 
     return {
-        demo,
         status,
         history,
         incidents,
@@ -71,6 +56,6 @@ export function useStatusData() {
         error,
         lastFetched,
         reload: () => load(true),
-        historyMissing: !demo && !history,
+        historyMissing: !history,
     };
 }

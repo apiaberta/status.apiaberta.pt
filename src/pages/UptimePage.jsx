@@ -4,14 +4,12 @@ import { Link } from 'react-router-dom';
 import Layout from '../components/Layout.jsx';
 import Legend from '../components/Legend.jsx';
 import MonthCalendar from '../components/MonthCalendar.jsx';
-import { useDemoLink } from '../hooks/useDemo.js';
 import { useStatusData } from '../hooks/useStatusData.js';
 import { COPY } from '../lib/copy.js';
 import { addMonths, startOfMonth, toIsoDate } from '../lib/dates.js';
 
 export default function UptimePage() {
     const { services, loading } = useStatusData();
-    const homeLink = useDemoLink('/');
     const [offset, setOffset] = useState(0);
     const todayIso = toIsoDate(new Date());
 
@@ -25,7 +23,7 @@ export default function UptimePage() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                 <h1 className="text-lg font-semibold">{COPY.uptimeHistory}</h1>
                 <Link
-                    to={homeLink}
+                    to="/"
                     className="text-sm font-medium text-primary underline-offset-2 hover:underline"
                 >
                     {COPY.backToStatus}

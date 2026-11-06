@@ -20,17 +20,6 @@ npm run dev
 
 A página principal está em `/`. O histórico de uptime está em `/uptime`.
 
-### Dados de exemplo
-
-Os endpoints de histórico podem ainda não existir. Para ver o visual completo (barras coloridas, incidentes, calendários):
-
-```
-http://localhost:5173/?demo=1
-http://localhost:5173/uptime?demo=1
-```
-
-O modo de exemplo mostra um aviso claro no topo e **não** é o estado real dos serviços. Há também um atalho no rodapé: «Pré-visualizar com dados de exemplo».
-
 ## APIs
 
 | Endpoint | Uso |
