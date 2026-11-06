@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="API Aberta — Estado dos serviços">
+    <defs>
+        <style>
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 400;
+                src: local("Inter"), local("Inter Regular");
+            }
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                src: local("Inter SemiBold"), local("Inter");
+            }
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 700;
+                src: local("Inter Bold"), local("Inter");
+            }
+            text {
+                font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+            }
+        </style>
+    </defs>
+
+    <rect width="1200" height="630" fill="oklch(0.9851 0 0)" />
+
+    <g transform="translate(96, 88)">
+        <rect width="56" height="56" rx="8" fill="oklch(0.5273 0.1371 150.07)" />
+        <text x="28" y="37" text-anchor="middle" fill="oklch(1 0 0)" font-size="20" font-weight="700">AA</text>
+        <text x="76" y="38" fill="oklch(0.2077 0.0398 265.75)" font-size="28" font-weight="600">API Aberta</text>
+    </g>
+
+    <text x="96" y="248" fill="oklch(0.2077 0.0398 265.75)" font-size="64" font-weight="700">Estado dos serviços</text>
+    <text x="96" y="308" fill="oklch(0.5273 0.1371 150.07)" font-size="28" font-weight="500">status.apiaberta.pt</text>
+
+    <g transform="translate(96, 372)">
+        <rect width="1008" height="170" rx="16" fill="oklch(1 0 0)" stroke="oklch(0.91 0.012 255)" stroke-width="1" />
+        <!-- Decorative 90-day uptime row. Colours only; no metrics. -->
+        <g transform="translate(55, 57)" aria-hidden="true">
+            <rect x="0" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="10" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="20" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="30" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="40" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="50" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="60" y="0" width="8" height="56" rx="1" fill="oklch(0.84 0.16 85)" />
+            <rect x="70" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="80" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="90" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="100" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="110" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="120" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="130" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="140" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="150" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="160" y="0" width="8" height="56" rx="1" fill="oklch(0.63 0.21 25)" />
+            <rect x="170" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="180" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="190" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="200" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="210" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="220" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="230" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="240" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="250" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="260" y="0" width="8" height="56" rx="1" fill="oklch(0.84 0.16 85)" />
+            <rect x="270" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="280" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="290" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="300" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="310" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="320" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="330" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="340" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="350" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="360" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="370" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="380" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="390" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="400" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="410" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="420" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="430" y="0" width="8" height="56" rx="1" fill="oklch(0.63 0.21 25)" />
+            <rect x="440" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="450" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="460" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="470" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="480" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="490" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="500" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="510" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="520" y="0" width="8" height="56" rx="1" fill="oklch(0.84 0.16 85)" />
+            <rect x="530" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="540" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="550" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="560" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="570" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="580" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="590" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="600" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="610" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="620" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="630" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="640" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="650" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="660" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="670" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="680" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="690" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="700" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="710" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="720" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="730" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="740" y="0" width="8" height="56" rx="1" fill="oklch(0.84 0.16 85)" />
+            <rect x="750" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="760" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="770" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="780" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="790" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="800" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="810" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="820" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="830" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="840" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="850" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="860" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="870" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="880" y="0" width="8" height="56" rx="1" fill="oklch(0.72 0.17 150)" />
+            <rect x="890" y="0" width="8" height="56" rx="1" fill="oklch(0.90 0.005 265)" />
+        </g>
+    </g>
+</svg>
